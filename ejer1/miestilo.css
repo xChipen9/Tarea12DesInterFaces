@@ -1,0 +1,32 @@
+/* Selecciona las filas impares de una tabla */
+tr:nth-child(odd), tr:nth-child(2n+1) {
+    color: red;
+}
+
+/* Selecciona las filas pares de una tabla */
+tr:nth-child(even), tr:nth-child(2n) {
+    color: darkblue;
+}
+
+/* Selecciona el séptimo párrafo */
+p:nth-child(7) {
+    color: purple;
+    font-weight: bold;
+}
+
+/* Selecciona los elementos 6, 12, 18, etc. */
+p:nth-child(6n) {
+    color: orange;
+}
+
+/* Selecciona los elementos 4, 7, 10, 13, etc. */
+p:nth-child(3n+4) {
+    color: blue;
+}
+
+/* Cambiar de nth-child(7) a nth-child(2) para ver la diferencia */
+p:nth-child(2) {
+    color: brown;
+}
+
+
